@@ -1,0 +1,107 @@
+/* Fonts & Colors */
+
+body {
+  background: #fff1e5;
+  color: rgb(20, 20, 20);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+h1 {
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  color: #6257FF;
+  font-weight: 100;
+}
+
+h2 {
+  font-family: 18px;
+  font-family: 'Roboto', sans-serif;
+  color: #5E5768;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #FE4A49;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #2AB7CA;
+}
+
+
+/* Customer design */
+
+#banner {
+  background-image: ;
+  padding: 150px 0;
+  text-align: center;
+}
+
+#banner h1 {
+
+}
+
+.tab {
+  padding: 50px;
+  text-align: center;
+}
+
+#about {
+  background-color: #2AB7CA;
+}
+
+#skills {
+  background-color: #6257FF;
+}
+
+#career {
+  background-color: #FE4A49;
+}
+
+#projects {
+  background-color: #7CE577;
+}
+
+#footer {
+  background: #fff1e5;
+  color: #5E5768;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.icon {
+  color: #6257FF;
+  text-decoration: none;
+}
+
+.icon:hover {
+  font-size: 30px;
+  transition-duration: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
