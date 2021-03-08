@@ -69,7 +69,8 @@ a:hover {
   text-align: center;
 }
 
-#banner h1 {
+#banner a {
+  color: rgb(20, 20, 20);
 
 }
 
