@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ba58904443.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -12,35 +14,51 @@
   </head>
 
   <body>
+
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li> <a href="#contact">Get in touch</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
     <div id="banner">
-      <h1>Born and raised in Yorkshire in the north of England</h1>
-      <p class="m-4">This is Michael "Monkfish" Sutcliffe
-        <br>
-      </p>
-        <a href="#" class='btn btn-dark'>Learn more</a>
+      <h1>Michael Sutcliffe</h1>
+      <p class="m-4">Full-stack web developer from Yorkshire (UK), now based in sunny Barcelona. </p>
+      <img src="images/Michael and Laika.png" class="avatar mb-5" alt="">
+      <br>
+        <a href="mailto: michaelsutcliffe86@gmail.com" id='btn-contact'>Get in touch</a>
     </div>
+
+
 
     <div class="tab" id="about">
       <img src="images/world.svg" alt="">
-      <h2>This is Michael</h2>
+      <h2>This is all about me.</h2>
       <p>Michael is a <strong>web developer.</strong></p>
     </div>
 
-    <div class="tab" id="skills">
-      <img src="images/email-84.svg" alt="">
-      <h2>These are my skills</h2>
-      <p>Michael is a <strong>web developer.</strong></p>
-    </div>
-
-    <div class="tab" id="career">
-      <img src="images/award-48.svg" alt="">
-      <h2>This is my background</h2>
+    <div class="tab" id="experience">
+      <img src="images/spaceship.svg" alt="">
+      <h2>This is my experience.</h2>
       <p>Michael is a <strong>web developer.</strong></p>
     </div>
 
     <div class="tab" id="projects">
       <img src="images/widget.svg" alt="">
-      <h2>This is Michael</h2>
+      <h2>This is what I've been working on.</h2>
+      <p>Michael is a <strong>web developer.</strong></p>
+    </div>
+
+    <div class="tab" id="contact">
+      <img src="images/email-84.svg" alt="">
+      <h2>This is how you can get in touch.</h2>
       <p>Michael is a <strong>web developer.</strong></p>
     </div>
 
@@ -53,5 +71,9 @@
       </ul>
     </div>
 
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
