@@ -1,4 +1,7 @@
-/* Fonts & Colors */
+/* Fonts & Colors
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto:wght@100;400&display=swap")
+*/
+
 
 body {
   background: #fff1e5;
@@ -7,12 +10,32 @@ body {
   font-weight: 100;
 }
 
+header {
+  display: flex;
+  padding: 30px 10%;
+  justify-content: center;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+
+}
+
+.nav-links li a {
+  transition: all 0.4s ease 0s;
+}
+
 h1 {
 
   font-family: 'Roboto', sans-serif;
-  font-size: 50px;
+  font-size: 90px;
   color: #6257FF;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 h2 {
@@ -20,6 +43,10 @@ h2 {
   font-family: 'Roboto', sans-serif;
   color: #5E5768;
   font-weight: 300;
+}
+
+p {
+  font-size: 36px;
 }
 
 a {
@@ -36,6 +63,7 @@ a:hover {
 /* Customer design */
 
 #banner {
+  height: 100%;
   background-image: ;
   padding: 150px 0;
   text-align: center;
@@ -45,25 +73,35 @@ a:hover {
 
 }
 
+.navbar {
+  justify-content: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-item {
+  flex: 0 0 200;
+}
+
 .tab {
   padding: 50px;
   text-align: center;
 }
 
 #about {
-  background-color: #2AB7CA;
+  background-color: #F4FFFD;
 }
 
 #skills {
-  background-color: #6257FF;
+  background-color: #F4FFFD;
 }
 
 #career {
-  background-color: #FE4A49;
+  background-color: #F4FFFD;
 }
 
 #projects {
-  background-color: #7CE577;
+  background-color: #F4FFFD;
 }
 
 #footer {
@@ -74,6 +112,16 @@ a:hover {
   text-align: center;
 }
 
+#btn-contact {
+  background: #6257FF;
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 35px;
+  box-shadow: 0px 4px 40px lightgrey;
+  transition: all 0.5s;
+  color:#fff1e5
+}
+
 .icon {
   color: #6257FF;
   text-decoration: none;
@@ -81,12 +129,18 @@ a:hover {
 
 .icon:hover {
   font-size: 30px;
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
 }
 
 
 
+.avatar {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: fill;
 
+}
 
 
 
