@@ -27,6 +27,10 @@ header {
 
 }
 
+.nav-links li:hover {
+  font-size: 18px;
+}
+
 .nav-links li a {
   transition: all 0.4s ease 0s;
 }
@@ -126,13 +130,20 @@ button:hover {
 }
 
 #btn-contact {
-  background: #6257FF;
+  background: #2AB7CA;
   display: inline-block;
   padding: 20px 40px;
   border-radius: 35px;
   box-shadow: 0px 4px 40px lightgrey;
   transition: all 0.5s;
   color:#fff1e5 !important;
+}
+
+#btn-contact:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px #2AB7CA;
+  font-size: 18px;
+
 }
 
 .icon {
