@@ -18,7 +18,7 @@ header {
 }
 
 .container {
-  width: 1000px;
+  width: auto;
   margin: 0 auto;
 }
 
@@ -118,32 +118,44 @@ button:hover {
 }
 
 .tab {
-  padding: 50px;
-  text-align: center;
+  padding: 15px 15px;
+  text-align: left;
+
 }
 
 #about {
   background-color: #F4FFFD;
+  box-shadow: 5px 5px 8px #BEB7B2;
 }
 
-#skills {
-  background-color: #F4FFFD;
-}
+#experience {
 
-#career {
-  background-color: #F4FFFD;
 }
 
 #projects {
   background-color: #F4FFFD;
+  box-shadow: 5px 5px 8px #BEB7B2;
+}
+
+#contact {
+
 }
 
 #footer {
   background: #fff1e5;
   color: #5E5768;
-  font-size: 20px;
+  font-size: 16px;
   padding: 20px;
   text-align: center;
+}
+
+#footer i {
+  font-size: 16px;
+}
+
+#footer i:hover {
+  font-size: 30px;
+  transition-duration: 0.5s;
 }
 
 #btn-contact {
@@ -167,12 +179,6 @@ button:hover {
   color: #6257FF;
   text-decoration: none;
 }
-
-.icon:hover {
-  font-size: 30px;
-  transition-duration: 0.3s;
-}
-
 
 
 .avatar {
