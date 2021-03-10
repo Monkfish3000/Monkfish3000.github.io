@@ -50,7 +50,7 @@ header {
 h1 {
 
   font-family: 'Roboto', sans-serif;
-  font-size: 70px;
+  font-size: 90px;
   color: #6257FF;
   font-weight: 400;
 }
@@ -94,7 +94,7 @@ button:hover {
 
 #banner {
   height: 100%;
-  padding: 150px 0;
+  padding: 90px 0;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -120,6 +120,7 @@ button:hover {
 .tab {
   padding: 15px 15px;
   text-align: left;
+
 
 }
 
@@ -166,13 +167,13 @@ button:hover {
   box-shadow: 0px 4px 40px lightgrey;
   transition: all 0.5s;
   color:#fff1e5 !important;
+  box-shadow: 5px 5px 5px #E8DBD1;
 }
 
 #btn-contact:hover {
   cursor: pointer;
-  box-shadow: 0px 0px 5px #2AB7CA;
-  font-size: 18px;
-
+  box-shadow: 4px 4px 5px #2AB7CA;
+  font-size: 17px;
 }
 
 .icon {
@@ -185,8 +186,8 @@ button:hover {
   border-radius: 50%;
   width: 300px;
   height: 300px;
-  object-fit: fill;
-
+  object-fit: cover;
+  box-shadow: 5px 5px 5px #E8DBD1;
 }
 
 
