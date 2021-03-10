@@ -13,22 +13,28 @@ body {
 header {
   display: flex;
   padding: 30px 10%;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
 
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+
 .nav-links {
   list-style: none;
+  margin-bottom: 0rem;
 }
 
 .nav-links li {
   display: inline-block;
   padding: 0px 20px;
-
 }
 
 .nav-links li:hover {
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .nav-links li a {
@@ -38,6 +44,7 @@ header {
 .logo {
   height: 100px;
   width: 100px;
+  margin-right: auto;
 }
 
 h1 {
@@ -79,7 +86,7 @@ button {
 }
 
 button:hover {
-  font-size: 28px;
+  font-size: 26px;
   color: #2AB7CA;
 }
 
@@ -89,7 +96,17 @@ button:hover {
   height: 100%;
   padding: 150px 0;
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "text photo";
 }
+
+.text {
+  grid-area: text;
+  text-align: left;
+   }
+.photo { grid-area: photo; }
 
 #banner a {
   color: rgb(20, 20, 20);
