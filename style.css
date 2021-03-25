@@ -18,7 +18,7 @@ header {
 }
 
 .container {
-  width: auto;
+  max-width: auto;
   margin: 0 auto;
 }
 
@@ -44,6 +44,10 @@ header {
 .logo {
   height: 100px;
   width: 100px;
+  margin-right: auto;
+}
+
+#link-logo {
   margin-right: auto;
 }
 
