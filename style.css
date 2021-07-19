@@ -2,11 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto:wght@100;400&display=swap")
 */
 
-
 body {
   background: #fff1e5;
   color: rgb(20, 20, 20);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 100;
 }
 
@@ -18,10 +17,8 @@ header {
 }
 
 .container {
-  max-width: auto;
-  margin: 0 auto;
+  margin: auto;
 }
-
 
 .nav-links {
   list-style: none;
@@ -38,7 +35,7 @@ header {
 }
 
 .nav-links li a {
-  transition: all 0.4s ease 0s;
+  transition: all 0.1s ease 0s;
 }
 
 .logo {
@@ -52,17 +49,16 @@ header {
 }
 
 h1 {
-
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 90px;
-  color: #6257FF;
+  color: #6257ff;
   font-weight: 400;
 }
 
 h2 {
   font-family: 18px;
-  font-family: 'Roboto', sans-serif;
-  color: #5E5768;
+  font-family: "Roboto", sans-serif;
+  color: #5e5768;
   font-weight: 300;
 }
 
@@ -72,17 +68,17 @@ p {
 
 a {
   text-decoration: none;
-  color: #FE4A49;
+  color: #fe4a49;
 }
 
 a:hover {
   text-decoration: none;
-  color: #2AB7CA;
+  color: #2ab7ca;
 }
 
 button {
   font-size: 22px;
-  color: #6257FF;
+  color: #6257ff;
   border: none;
   background-color: #fff1e5;
   transition: all 0.4s ease 0s;
@@ -91,10 +87,8 @@ button {
 
 button:hover {
   font-size: 26px;
-  color: #2AB7CA;
+  color: #2ab7ca;
 }
-
-/* Customer design */
 
 #banner {
   height: 100%;
@@ -106,15 +100,20 @@ button:hover {
   grid-template-areas: "text photo";
 }
 
+#banner h1 {
+  font-family: "Handlee", cursive;
+}
+
 .text {
   grid-area: text;
   text-align: left;
-   }
-.photo { grid-area: photo; }
+}
+.photo {
+  grid-area: photo;
+}
 
 #banner a {
   color: rgb(20, 20, 20);
-
 }
 
 .flex-item {
@@ -122,33 +121,51 @@ button:hover {
 }
 
 .tab {
-  padding: 15px 15px;
-  text-align: left;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 24px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 66%;
+  margin: auto;
+  margin-bottom: 15px;
+  flex-direction: column;
+  padding-left: 15px;
+}
 
+.tab h2 {
+  color: #2ab7ca;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
 
+.tab p {
+  color: rgba(20, 20, 20);
+  font-size: smaller;
 }
 
 #about {
-  background-color: #F4FFFD;
-  box-shadow: 5px 5px 8px #BEB7B2;
+  background-color: #f4fffd;
+  box-shadow: 5px 5px 8px #beb7b2;
 }
 
 #experience {
-
 }
 
 #projects {
-  background-color: #F4FFFD;
-  box-shadow: 5px 5px 8px #BEB7B2;
+  background-color: #f4fffd;
+  box-shadow: 5px 5px 8px #beb7b2;
 }
 
 #contact {
-
 }
 
 #footer {
   background: #fff1e5;
-  color: #5E5768;
+  color: #5e5768;
   font-size: 16px;
   padding: 20px;
   text-align: center;
@@ -159,55 +176,36 @@ button:hover {
 }
 
 #footer i:hover {
-  font-size: 30px;
-  transition-duration: 0.5s;
+  font-size: 20px;
+  transition-duration: 0.1s;
 }
 
 #btn-contact {
-  background: #2AB7CA;
+  background: #2ab7ca;
   display: inline-block;
   padding: 20px 40px;
   border-radius: 35px;
   box-shadow: 0px 4px 40px lightgrey;
-  transition: all 0.5s;
-  color:#fff1e5 !important;
-  box-shadow: 5px 5px 5px #E8DBD1;
+  transition: all 0.1s;
+  color: #fff1e5 !important;
+  box-shadow: 5px 5px 5px #e8dbd1;
 }
 
 #btn-contact:hover {
   cursor: pointer;
-  box-shadow: 4px 4px 5px #2AB7CA;
+  box-shadow: 4px 4px 5px #2ab7ca;
   font-size: 17px;
 }
 
 .icon {
-  color: #6257FF;
+  color: #6257ff;
   text-decoration: none;
 }
-
 
 .avatar {
   border-radius: 50%;
   width: 300px;
   height: 300px;
   object-fit: cover;
-  box-shadow: 5px 5px 5px #E8DBD1;
+  box-shadow: 5px 5px 5px #e8dbd1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
