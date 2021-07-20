@@ -2,11 +2,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto:wght@100;400&display=swap")
 */
 
+* {
+}
+
 body {
   background: #fff1e5;
   color: rgb(20, 20, 20);
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
+  position: relative;
 }
 
 header {
@@ -14,10 +18,36 @@ header {
   padding: 30px 10%;
   justify-content: flex-end;
   align-items: center;
+  border-bottom: 1px solid #2ab7ca;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .container {
+  margin-top: 200px;
   margin: auto;
+  position: relative;
+  height: 100vh;
+}
+
+.container #mountain {
+  position: absolute;
+  bottom: 0;
+  left: 235px;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+#top-cloud {
+  position: absolute;
+  left: -194px;
+  top: 175px;
+}
+
+#bottom-cloud {
+  position: absolute;
+  right: -111px;
+  top: 375px;
 }
 
 .nav-links {
@@ -116,25 +146,31 @@ button:hover {
   color: rgb(20, 20, 20);
 }
 
-.flex-item {
-  flex: 0 0 200;
+.tabs-container {
+  width: 99%;
+  margin: auto;
+  padding: 5px 15px;
+  background-color: #e0d2ea;
 }
 
 .tab {
+  background-color: #f4fffd;
   background-size: cover;
   background-position: center;
-  height: 250px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   font-size: 24px;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  width: 66%;
-  margin: auto;
+  width: 75%;
+  margin: 0 auto;
   margin-bottom: 15px;
   flex-direction: column;
-  padding-left: 15px;
+  padding-left: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
 }
 
 .tab h2 {
@@ -152,23 +188,31 @@ button:hover {
   box-shadow: 5px 5px 8px #beb7b2;
 }
 
-#experience {
+#skills {
+  margin-bottom: 0;
 }
 
-#projects {
-  background-color: #f4fffd;
-  box-shadow: 5px 5px 8px #beb7b2;
+.skills-icons {
+  position: absolute;
+  right: 370px;
 }
 
-#contact {
+.skills-icons img {
+  height: 150px;
+  padding: 40px;
+}
+
+.gif {
+  height: 75px;
 }
 
 #footer {
   background: #fff1e5;
   color: #5e5768;
   font-size: 16px;
-  padding: 20px;
+  padding: 20px 20px 5px 20px;
   text-align: center;
+  border-top: 1px solid #2ab7ca;
 }
 
 #footer i {
@@ -178,6 +222,10 @@ button:hover {
 #footer i:hover {
   font-size: 20px;
   transition-duration: 0.1s;
+}
+
+#footer ul {
+  margin-bottom: 0;
 }
 
 #btn-contact {
