@@ -14,16 +14,17 @@
     <script src="https://kit.fontawesome.com/ba58904443.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    
     <link rel="icon" href="./images/favicon.ico">
 
     <title>Welcome to Michael's profile</title>
-
+    
   
   </head>
 
   <body>
   
-  <header>
+  <header class="nav-bar">
     <img class="logo" src="images/logo.png" alt="logo">
 
 
@@ -46,19 +47,19 @@
            <p>Junior Software Engineer from <a href="https://en.wikipedia.org/wiki/Yorkshire" target="blank">Yorkshire</a> passionate about technology, education and all things edTech. Based in sunny Barcelona. </p>
           </div>
 
-          <img id="top-cloud" src="./images/cloud.png" alt="cloud">
-          <img id="bottom-cloud" src="./images/cloud.png" alt="">
+          <!-- <img id="top-cloud" src="./images/cloud.png" alt="cloud">
+          <img id="bottom-cloud" src="./images/cloud.png" alt=""> -->
 
         <div class="photo">
           <img src="images/michael.jpg" class="avatar mb-5" alt="">
           <br>
           <a href="mailto: michaelsutcliffe86@gmail.com" id='btn-contact'>Get in touch</a>
-          <img id="mountain" src="./images/mountain.png" alt="">
+          <img id="computer" src="./images/responsive.png" alt="">
         </div>
     </div>
   </div>
 
-    <div class="tabs-container">
+    
       <div class="tab" id="about">
         
           <img src="images/world.svg" class="mb-3" alt="">
@@ -79,26 +80,38 @@
             </p>
         </class>
       </div>
+
+      <hr>
   
       <div class="tab" id="experience">
         <img src="images/spaceship.svg" class="mb-3" alt="">
         <h2>Experience</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio repellendus illum sed consequuntur consequatur ipsam vero asperiores, molestiae, ad molestias maiores quidem dolores omnis qui sint tenetur nam et?</p>
       </div>
-      
-  
-      <div class="tab" id="skills">
+
+      <hr>
+
+      <div class="tab">
         <img src="images/widget.svg" class="mb-3" alt="">
-        <h2>Skills</h2>
-        <div class="skills-icons">
-          <img id="javascript-icon" src="https://media4.giphy.com/media/GZu3NtMoA6Lp2alLKk/giphy.gif" alt="">
-          <img id="css-icon" src="https://media.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif" alt="">
-          <img id="html-icon" src="https://media.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif" alt="">
-          <img id="react-icon" src="https://media4.giphy.com/media/iFmw13LV1hHhViPPWz/giphy.gif?cid=ecf05e47woslzryee24h6jx8e0tzmwhej9at4g3mjixno1pc&rid=giphy.gif&ct=s" alt="">
+        <h2 class="mb-4">Skills</h2>
+        <div class="skill-box">
+          <img class="gif" id="javascript-icon" src="https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif" alt="">
+          <p>Short text about my use of Javascript Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ipsam!</p>
+        </div>
+        <div class="skill-box">
+          <p>I also use CSS all the time yo Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, error.</p>
+          <img class="gif" id="css-icon" src="https://media.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif" alt="">
+        </div>
+        <div class="skill-box">
+          <img class="gif" id="html-icon" src="https://media.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif" alt="">
+          <p>And obvs HTML building those websites. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, beatae.</p>
+        </div>
+        <div class="skill-box">
+          <p>And finally I learned React cos everyone learns React these days. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, atque?</p>
+          <img class="gif" id="react-icon" src="https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif" alt="">
         </div>
         
       </div>
-
     </div>
     
 
@@ -111,13 +124,10 @@
       </ul>
     </div>
 
-  
-
-
-
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+    <script src="index.js"></script>
   </body>
 </html>
