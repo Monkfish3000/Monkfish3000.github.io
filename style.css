@@ -3,6 +3,7 @@
 */
 
 * {
+  box-sizing: border-box;
 }
 
 body {
@@ -18,9 +19,20 @@ header {
   padding: 30px 10%;
   justify-content: flex-end;
   align-items: center;
-  border-bottom: 1px solid #2ab7ca;
+  /* border-bottom: 1px solid #2ab7ca; */
   padding-bottom: 0;
   padding-top: 0;
+  top: 0;
+  position: sticky;
+  z-index: 1;
+  background-color: #fff1e5;
+}
+
+hr {
+  border: dotted #2ab7ca 6px;
+  border-bottom: none;
+  opacity: 0.4;
+  width: 4%;
 }
 
 .container {
@@ -30,15 +42,15 @@ header {
   height: 100vh;
 }
 
-.container #mountain {
+.container #computer {
   position: absolute;
   bottom: 0;
-  left: 235px;
+  left: 290px;
   z-index: -1;
-  opacity: 0.5;
+  opacity: 0.1;
 }
 
-#top-cloud {
+/* #top-cloud {
   position: absolute;
   left: -194px;
   top: 175px;
@@ -48,7 +60,7 @@ header {
   position: absolute;
   right: -111px;
   top: 375px;
-}
+} */
 
 .nav-links {
   list-style: none;
@@ -188,22 +200,23 @@ button:hover {
   box-shadow: 5px 5px 8px #beb7b2;
 }
 
-#skills {
-  margin-bottom: 0;
+.skill-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  /* border: 1px solid black; */
 }
 
-.skills-icons {
-  position: absolute;
-  right: 370px;
-}
-
-.skills-icons img {
-  height: 150px;
-  padding: 40px;
+.skill-box p {
+  width: 50%;
 }
 
 .gif {
-  height: 75px;
+  max-width: 10%;
+  margin: 25px;
+  /* margin: auto; */
+  /* margin-bottom: 15px; */
 }
 
 #footer {
@@ -212,7 +225,6 @@ button:hover {
   font-size: 16px;
   padding: 20px 20px 5px 20px;
   text-align: center;
-  border-top: 1px solid #2ab7ca;
 }
 
 #footer i {
