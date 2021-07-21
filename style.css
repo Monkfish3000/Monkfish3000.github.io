@@ -183,6 +183,16 @@ button:hover {
   padding-top: 30px;
   padding-bottom: 30px;
   position: relative;
+  transform: translateX(200%);
+  transition: transform 0.7s ease;
+}
+
+.tab:nth-of-type(even) {
+  transform: translateX(-200%);
+}
+
+.tab.show {
+  transform: translateX(0);
 }
 
 .tab h2 {
@@ -198,6 +208,10 @@ button:hover {
 #about {
   background-color: #f4fffd;
   box-shadow: 5px 5px 8px #beb7b2;
+}
+
+#pets img {
+  height: 48px;
 }
 
 .skill-box {

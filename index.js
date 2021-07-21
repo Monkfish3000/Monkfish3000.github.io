@@ -28,3 +28,22 @@ function blurring() {
 const scale = (num, in_min, in_max, out_min, out_max) => {
   return (num - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
 }; 
+
+
+const tabs = document.querySelectorAll('.tab');
+
+window.addEventListener('scroll', checkBoxes);
+
+function checkBoxes() {
+  const triggerBottom = window.innerHeight / 5 * 4;
+
+  tabs.forEach(tab => {
+    const tabTop = tab.getBoundingClientRect().top;
+
+    if (tabTop < triggerBottom) {
+      tab.classList.add('show')
+    } else {
+      tab.classList.remove('show')
+    }
+  })
+}
