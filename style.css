@@ -9,7 +9,7 @@
 body {
   background: #fff1e5;
   color: rgb(20, 20, 20);
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   position: relative;
 }
@@ -91,7 +91,7 @@ hr {
 }
 
 h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 90px;
   color: #6257ff;
   font-weight: 400;
@@ -99,7 +99,7 @@ h1 {
 
 h2 {
   font-family: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #5e5768;
   font-weight: 300;
 }
@@ -139,11 +139,11 @@ button:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-template-areas: "text photo";
+  grid-template-areas: 'text photo';
 }
 
 #banner h1 {
-  font-family: "Handlee", cursive;
+  font-family: 'Handlee', cursive;
 }
 
 .text {
@@ -227,7 +227,7 @@ button:hover {
 }
 
 .gif {
-  max-width: 10%;
+  max-width: 15%;
   margin: 25px;
   /* margin: auto; */
   /* margin-bottom: 15px; */
