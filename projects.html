@@ -9,6 +9,14 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto:wght@100;400&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/ba58904443.js"
       crossorigin="anonymous"
@@ -21,18 +29,18 @@
     />
     <link rel="stylesheet" href="style.css" />
 
-    <title>Michael's projects</title>
+    <link rel="icon" href="./images/favicon.ico" />
 
-    <script></script>
+    <title>Welcome to Michael's profile</title>
   </head>
+
   <body>
     <header class="nav-bar">
-      <img class="logo" src="images/logo.png" alt="logo" />
+      <img class="logo" src="images/logo.png" href="./index.html" alt="logo" />
 
       <nav>
         <ul class="nav-links">
           <li><a href="./index.html">Home</a></li>
-
           <li><a href="./projects.html">Projects</a></li>
           <li>
             <a href="downloads/michaelcv.pdf" target="blank">Download My CV</a>
@@ -40,5 +48,105 @@
         </ul>
       </nav>
     </header>
+
+    <img id="top-cloud" src="./images/cloud.png" alt="cloud" />
+    <img id="bottom-cloud" src="./images/cloud.png" alt="" />
+
+    <div class="project-tab" id="pets">
+      <img src="images/project-rocket.svg" class="mb-3" alt="" />
+      <h2>Monkflicks</h2>
+      <p><strong>https://monkflicks.web.app/</strong></p>
+
+      <p>
+        A fun Netflix clone I made experimenting with Firebase as the "backend"
+        - Firebase handles user auth. and acts as a store for all the film and
+        series data. In the frontend I made use of styled-components to,
+        well...style the components.
+      </p>
+      <p>
+        To check out the user auth you can sign up with a fake email/password or
+        use 'test@test.com'/password123 to sign in.
+      </p>
+      <p>
+        ⚠️ It's been brought to my attention that Google may try and flag this
+        site as dangerous and warn you about entering. I think this is because
+        they think I am deliberately trying to mimic Netflix to scam people. I
+        promise I am not. It was just a fun project.⚠️
+      </p>
+    </div>
+
+    <hr />
+
+    <div class="project-tab" id="pets">
+      <img src="images/project-heart.svg" class="mb-3" alt="" />
+      <h2>MonkEats</h2>
+      <p><strong>https://taupe-dusk-17e0e8.netlify.app/</strong></p>
+      <p>Built with React - a mock up of a food delivery webapp menu page.</p>
+      <p>
+        I made this for fun whilst practicing different React techniques.
+        Nothing flashy just built for fun. It's deployed on Netlify who make
+        things very, very easy indeed to quickly deploy an basic SPA.
+      </p>
+    </div>
+
+    <hr />
+
+    <div class="project-tab" id="pets">
+      <img src="images/project-presentation.svg" class="mb-3" alt="" />
+      <h2>A ticket tracker blog/project manager app</h2>
+      <p><strong>🚧Work In Progress🚧</strong></p>
+
+      <p>
+        I'm experimenting a lot with AWS lately and the comprehensive suite of
+        tools they offer around building, hosting and deploying webapps.
+      </p>
+      <p>
+        The idea here is a kind of enhanced TODO-list/blog combined with a
+        Jira-style system (albeit just for me and my own personal use) that will
+        allow me to keep track of tickets I've worked on so I can refer back to
+        them when I need. I want to include searchable tags and dates. I also
+        want to leave the project completely open to further enhancements and
+        features so I can keep expanding it with features I think will be cool.
+      </p>
+    </div>
+
+    <div id="footer">
+      2021 &copy; Built with ❤️ by Monkfish3000.
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="https://www.instagram.com/michaelscuffles/" target="_blank"
+            ><i class="fab fa-instagram icon"></i
+          ></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://github.com/Monkfish3000" target="blank"
+            ><i class="fab fa-github icon"></i
+          ></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.linkedin.com/in/michael-sut/" target="_blank"
+            ><i class="fab fa-linkedin icon"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="index.js"></script>
   </body>
 </html>

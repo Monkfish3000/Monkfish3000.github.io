@@ -50,7 +50,7 @@ hr {
   opacity: 0.1;
 }
 
-/* #top-cloud {
+#top-cloud {
   position: absolute;
   left: -194px;
   top: 175px;
@@ -60,7 +60,7 @@ hr {
   position: absolute;
   right: -111px;
   top: 375px;
-} */
+}
 
 .nav-links {
   list-style: none;
@@ -184,7 +184,37 @@ button:hover {
   padding-bottom: 30px;
   position: relative;
   transform: translateX(200%);
-  transition: transform 0.7s ease;
+  transition: transform 0.3s ease;
+}
+
+.project-tab {
+  background-color: #f4fffd;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 24px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.project-tab h2 {
+  color: #2ab7ca;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.project-tab p {
+  color: rgba(20, 20, 20);
+  font-size: smaller;
 }
 
 .tab:nth-of-type(even) {
