@@ -184,7 +184,7 @@ button:hover {
   padding-bottom: 30px;
   position: relative;
   transform: translateX(200%);
-  transition: transform 0.3s ease;
+  transition: transform 0.15s ease;
 }
 
 .project-tab {
